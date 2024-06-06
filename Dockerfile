@@ -1,4 +1,4 @@
-FROM golang:1.18-bullseye
+FROM golang:1.22.3-bullseye
 
 WORKDIR /app
 ADD . /app
